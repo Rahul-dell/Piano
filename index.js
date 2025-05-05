@@ -4,25 +4,25 @@ document.querySelectorAll(".key")[i].addEventListener("click", play);}
 //for keyboard press
 document.addEventListener("keydown", function(event){
       switch(event.key){
-        case'c':var audio=new Audio("./assets/c.mp3");
+        case'c':var audio=new Audio("assets/c.mp3");
         audio.play();
         break;
-        case'd':var audio=new Audio("./assets/d.mp3");
+        case'd':var audio=new Audio("assets/d.mp3");
         audio.play();
         break;
-        case'e':var audio=new Audio("./assets/e.mp3");
+        case'e':var audio=new Audio("assets/e.mp3");
         audio.play();
         break;
-        case'f':var audio=new Audio("./assets/f.mp3");
+        case'f':var audio=new Audio("assets/f.mp3");
         audio.play();
         break;
-        case'g':var audio=new Audio("./assets/g.mp3");
+        case'g':var audio=new Audio("assets/g.mp3");
         audio.play();
         break;
-        case'a':var audio=new Audio("./assets/a.mp3");
+        case'a':var audio=new Audio("assets/a.mp3");
         audio.play();
         break;
-        case'b':var audio=new Audio("./assets/b.mp3");
+        case'b':var audio=new Audio("assets/b.mp3");
         audio.play();
         break;
         default:console.log(event.key);
@@ -33,25 +33,25 @@ document.addEventListener("keydown", function(event){
 function play ()
 
 {     switch(this.textContent){
-    case'c':var audio=new Audio("./assets/c.mp3");
+    case'c':var audio=new Audio("assets/c.mp3");
     audio.play();
     break;
-    case'd':var audio=new Audio("./assets/d.mp3");
+    case'd':var audio=new Audio("assets/d.mp3");
     audio.play();
     break;
-    case'e':var audio=new Audio("./assets/e.mp3");
+    case'e':var audio=new Audio("assets/e.mp3");
     audio.play();
     break;
-    case'f':var audio=new Audio("./assets/f.mp3");
+    case'f':var audio=new Audio("assets/f.mp3");
     audio.play();
     break;
-    case'g':var audio=new Audio("./assets/g.mp3");
+    case'g':var audio=new Audio("assets/g.mp3");
     audio.play();
     break;
-    case'a':var audio=new Audio("./assets/a.mp3");
+    case'a':var audio=new Audio("assets/a.mp3");
     audio.play();
     break;
-    case'b':var audio=new Audio("./assets/b.mp3");
+    case'b':var audio=new Audio("assets/b.mp3");
     audio.play();
     break;
     default:console.log(this.textContent);
